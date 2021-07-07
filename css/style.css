@@ -6,24 +6,109 @@
 /* Фон секции команда #F5F4FA */
 /* Фон секции кнопка, футер #2F303A */
 /* Акцент #2196F3 */
+
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --white: #ffffff;
+  --main-white: #e5e5e5;
+  --footer-white: rgba(255, 255, 255, 0.6);
+  --grey-color: #f5f4fa;
+  --brand-color: #2f303a;
+  --accent: #2196f3;
+}
+
 body {
-  background-color: #fff;
-  color: #757575;
+  background-color: var(--white);
+  color: var(--text-color);
 }
 
 .list {
   list-style: none;
 }
 
-a {
+.logo-header {
+  color: var(--title-color);
   text-decoration: none;
-  color: #212121;
 }
 
-.logo {
-  color: #212121;
+.logo-footer {
+  color: var(--white);
+  text-decoration: none;
 }
 
 .logo-colored {
-  color: #2196f3;
+  color: var(--accent);
+}
+
+.pages {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.pages:hover,
+.pages:focus {
+  color: var(--accent);
+}
+
+.contacts {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent);
+}
+
+.button-section {
+  background-color: var(--brand-color);
+}
+.offer {
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--accent);
+  color: var(--white);
+}
+
+.advantages {
+  background-color: var(--main-white);
+}
+
+.advantages-points {
+  color: var(--title-color);
+}
+
+.proposal {
+  background-color: var(--main-white);
+}
+
+.title {
+  color: var(--title-color);
+}
+
+.team {
+  background-color: var(--grey-color);
+}
+
+.name {
+  color: var(--title-color);
+}
+
+.footer {
+  background-color: var(--brand-color);
+}
+
+.address {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.info {
+  color: var(--footer-white);
+  text-decoration: none;
 }
