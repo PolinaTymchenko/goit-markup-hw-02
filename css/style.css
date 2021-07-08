@@ -6,6 +6,7 @@
 /* Фон секции команда #F5F4FA */
 /* Фон секции кнопка, футер #2F303A */
 /* Акцент #2196F3 */
+/* Серый #EEEEEE */
 
 :root {
   --title-color: #212121;
@@ -16,6 +17,13 @@
   --grey-color: #f5f4fa;
   --brand-color: #2f303a;
   --accent: #2196f3;
+  --grey: #eeeeee;
+}
+
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -61,7 +69,7 @@ body {
   color: var(--accent);
 }
 
-.button-section {
+.service {
   background-color: var(--brand-color);
 }
 .offer {
@@ -111,4 +119,22 @@ body {
 .info {
   color: var(--footer-white);
   text-decoration: none;
+}
+
+.button {
+  background-color: var(--grey);
+  color: var(--title-color);
+}
+
+.button:hover {
+  background-color: var(--accent);
+  color: var(--white);
+}
+
+.product-card {
+  text-decoration: none;
+}
+
+.text {
+  color: var(--text-color);
 }
