@@ -8,6 +8,9 @@
 /* Акцент #2196F3 */
 /* Серый #EEEEEE */
 
+/* Шрифты Raleway 700 
+Roboto 400 500 700 900
+*/
 :root {
   --title-color: #212121;
   --text-color: #757575;
@@ -29,6 +32,12 @@
 body {
   background-color: var(--white);
   color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -38,11 +47,21 @@ body {
 .logo-header {
   color: var(--title-color);
   text-decoration: none;
+  font-family: "Raleway";
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .logo-footer {
   color: var(--white);
   text-decoration: none;
+  font-family: "Raleway";
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .logo-colored {
@@ -52,6 +71,10 @@ body {
 .pages {
   text-decoration: none;
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .pages:hover,
@@ -74,13 +97,21 @@ body {
 }
 .offer {
   color: var(--white);
-  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   background-color: var(--accent);
   color: var(--white);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .advantages {
@@ -89,6 +120,9 @@ body {
 
 .advantages-points {
   color: var(--title-color);
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .proposal {
@@ -97,6 +131,10 @@ body {
 
 .title {
   color: var(--title-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
 .team {
@@ -105,6 +143,15 @@ body {
 
 .name {
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.busyness {
+  line-height: 19px;
+  text-align: center;
 }
 
 .footer {
@@ -114,6 +161,8 @@ body {
 .address {
   color: var(--white);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .info {
@@ -121,12 +170,18 @@ body {
   text-decoration: none;
 }
 
-.button {
+.button-filter {
   background-color: var(--grey);
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.button:hover {
+.button-filter:hover,
+.button-filter:focus {
   background-color: var(--accent);
   color: var(--white);
 }
@@ -134,7 +189,15 @@ body {
 .product-card {
   text-decoration: none;
 }
-
-.text {
+.card-name {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.card-text {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 30px;
 }
